@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-family: sans-serif;
+    background-color: #F3F0EC;
+}
+
+body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 10px auto;
+}
+
+.container {
+    background-color: #55cef3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 10px;
+    column-gap: 30px;
+    padding: 24px 56px;
+    border-radius: 10px;
+}
+
+.formulario input[type="number"] {
+    width: 200px;
+}
+
+.ultimoResultado {
+    color: white;
+    padding: 3px;
+}
+
+.envioPalpite {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.botaoReinicio {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
