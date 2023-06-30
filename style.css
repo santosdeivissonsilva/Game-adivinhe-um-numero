@@ -4,7 +4,7 @@
 
 html {
     font-family: sans-serif;
-    background-color: #F3F0EC;
+    background-color: #55cef3;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    background-color: #55cef3;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -24,6 +24,7 @@ body {
     column-gap: 30px;
     padding: 24px 56px;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438)
 }
 
 .formulario input[type="number"] {
